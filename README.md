@@ -1,1 +1,2 @@
 # thoughtful
+The sort function is designed to classify packages based on their size and weight. It first calculates the volume of the package and checks if any of its dimensions exceed 150 cm to determine if it is bulky. It also checks whether the mass of the package is 20 kg or more to determine if it is heavy. If a package is both bulky and heavy, it is classified as "REJECTED"; if it is either bulky or heavy, it is classified as "SPECIAL". Only packages that are neither bulky nor heavy are considered "STANDARD" and can be handled normally.
